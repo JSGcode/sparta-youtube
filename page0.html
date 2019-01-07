@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Space</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container1"> <!--Top container will be the first line including logo navigation diveded into three sections for easier control-->
+            <div class="box1">
+                <a href="index.html">
+                    <img alt="Logo" src="img/logo.png">
+                </a>
+            </div>
+            <div class="box2">
+                <p>
+                    <input type="text" placeholder="Search..">
+                </p>
+            </div>
+            <div class="box3">
+                <p>
+                    <a href="page0.html" class="navi">The Milky Way</a>
+                    <a href="page1.html" class="navi">CS Twilight</a>  
+                    <a href="page2.html" class="navi">If Google was a Guy</a>
+                </p>
+            </div>
+        </div>
+        <div class="container2">  <!--Second container will be used for video and description-->
+            <div class="Video">
+                <h1>The Milky Way</h1>
+                    <video width="1080" height="655" controls>
+                            <source src="video/milkyway.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+            </div>
+            <div class="desc">
+                <h2><i>The Second Page</i></h2>
+                <p></p>
+                <ul>
+                    <li>Here is an example using the video tags. The page might flicker while the video loads if the width and height attributes are not defined.</li>
+                    <li>Source is an element that allows to have a backup. The browser will select the first recognized format</li>
+                    <li>The controls attribute adds video controls, like play, pause, and volume.</li>
+                    <p></p>
+                </ul>
+                <p>This page includes: </p>
+                <Ol>                    
+                    <li>A time lapse video showing the stars and is titled 'Milky Way Glowing At Night'</li>
+                    <li>This video unfortuneatly does not have audio and it was found on pexels. Click
+                            <a href="https://videos.pexels.com/videos/milky-way-glowing-at-night-857136">here.</a>
+                        </li>
+                </Ol>
+                <p>Some Things to improve on are: </p>
+                <ul>                    
+                    <li>The video was a different size to the first so i had to adapt it to not affect the rest of the page</li>
+                    <li>Investigate on how to implement another player</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
